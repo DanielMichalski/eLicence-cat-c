@@ -21,7 +21,7 @@ public class ShowInfoPanel extends JPanel {
     }
 
     private void initializeComponents() {
-        aboutApp = createBtn("bl_ok.png", 150, 960);
+        aboutApp = createBtn("bl_ok.png", 150, 975);
         add(aboutApp);
     }
 

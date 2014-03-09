@@ -39,7 +39,7 @@ public class ShowInfoDialog extends JDialog {
         ShowInfoPanel showInfoPanel = new ShowInfoPanel() {
             @Override
             public Dimension getPreferredSize() {
-                return new Dimension(490, 1000);
+            return new Dimension(490, 1015);
             }
         };
 
