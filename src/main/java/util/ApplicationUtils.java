@@ -98,7 +98,7 @@ public class ApplicationUtils {
     }
 
     public static void checkCD() {
-        String cdName = "Testy_B_v3_0";
+        String cdName = "Testy_C_v3_0";
 
         java.util.List<File> files = Arrays.asList(File.listRoots());
         for (File drv : files) {
@@ -124,7 +124,7 @@ public class ApplicationUtils {
 
         JOptionPane.showMessageDialog(
                 null,
-                "Brak płyty w napędzie. Włóż płytę z aplikacją Testy B i spróbuj ponownie uruchomić aplikację.",
+                "Brak płyty w napędzie. Włóż płytę z aplikacją Testy C i spróbuj ponownie uruchomić aplikację.",
                 "Błąd",
                 JOptionPane.ERROR_MESSAGE);
 
