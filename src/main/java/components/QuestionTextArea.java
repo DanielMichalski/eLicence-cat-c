@@ -15,7 +15,7 @@ public class QuestionTextArea extends JTextArea {
     public QuestionTextArea(int howManyToWrapLine) {
         this.howManyToWrapLine = howManyToWrapLine;
 
-        setFont(new Font(Font.SERIF, Font.PLAIN, 12));
+        setFont(new Font("monospace", Font.PLAIN, 12));
         setFocusable(false);
         setPreferredSize(Const.Dimensions.ABC_BTNS_SIZE);
         setMinimumSize(Const.Dimensions.ABC_BTNS_SIZE);

@@ -141,11 +141,7 @@ public class LearningLeftPanel extends JPanel {
 
         btnA = new QuestionTextArea(96);
         btnB = new QuestionTextArea(96);
-        btnB.setFont(new Font("monospace", Font.PLAIN, 12));
-
-
         btnC = new QuestionTextArea(96);
-        btnC.setFont(new Font("monospacegg", Font.PLAIN, 12));
 
         buttonPanel.add(btnA);
         buttonPanel.add(btnB);
